@@ -61,7 +61,7 @@ const main = () => {
         versions.push(argv.shift())
         break
       case '-i': case '--inc': case '--increment':
-        if (semver.RELEASE_TYPES.includes(argv[0]) || (argv[0] === 'release')) {
+        if (semver.RELEASE_TYPES.includes(argv[0])) {
           inc = { value: argv.shift(), maybeErrantValue: null, option: a }
         } else {
           inc = { value: 'patch', maybeErrantValue: argv[0], option: a }

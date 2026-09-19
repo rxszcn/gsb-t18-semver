@@ -600,6 +600,7 @@ As a convenience, helper constants are exported to provide information about wha
 - patch
 - prepatch
 - prerelease
+- release
 
 ```
 const semver = require('semver');
