@@ -23,6 +23,7 @@ const RELEASE_TYPES = [
   'patch',
   'prepatch',
   'prerelease',
+  'release',
 ]
 
 module.exports = {

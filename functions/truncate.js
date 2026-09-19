@@ -29,6 +29,8 @@ const doTruncation = (version, truncation) => {
   version.prerelease = []
 
   switch (truncation) {
+    case 'release':
+      break
     case 'major':
       version.minor = 0
       version.patch = 0
